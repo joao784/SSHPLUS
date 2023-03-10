@@ -63,7 +63,7 @@ system=$(cat /etc/issue.net)
 date=$(date '+%Y-%m-%d <> %H:%M:%S')
 echo ""
 echo -e "\033[1;37m $system                          $date"
-figlet ' ANDRE By Cracker' | boxes -d stone -p a0v0 | lolcat
+figlet ' JMTEC By Cracker' | boxes -d stone -p a0v0 | lolcat
 echo "SE VI MAIS LONGE DO QUE OUTROS, FOI POR ESTÁ DE PÉ SOBRE OMBROS DE GIGANTES" 
 echo -e "\033[01;31m▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣▣\033[0m"
 echo ""
