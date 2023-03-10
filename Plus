@@ -86,7 +86,7 @@ banner
 verificar_chave(){
 clear
 banner
-chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEBTESTE/raw/main/install/chave") &>/dev/null
+chave=$(curl -sSL "https://raw.githubusercontent.com/joao784/SSHPLUS/main/Install/key") &>/dev/null
   
   if [[ ! -f /bin/ppweb/botpag/chave_inst ]]
   then
