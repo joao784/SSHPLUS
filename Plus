@@ -81,7 +81,12 @@ echo -e "\033[1;31m• \033[1;33mUSE UBUNTU 18 x64 PARA (V2RAY) EVITEM OUTROS SI
 echo -e "\033[1;31m \033[1;33m\033[0m"
 echo ""
 banner
-chave=$(curl -sSL "https://raw.githubusercontent.com/joao784/SSHPLUS/main/Install/chave") &>/dev/null
+}
+
+verificar_chave(){
+clear
+banner
+chave=$(curl -sSL "https://github.com/srSPEEDiness/PWEBTESTE/raw/main/install/chave") &>/dev/null
   
   if [[ ! -f /bin/ppweb/botpag/chave_inst ]]
   then
@@ -113,6 +118,12 @@ read -p "DIGITE A CHAVE DE INSTALAÇÃO: " key
           botpag
           else
           echo "[-] ESSA CHAVE NÃO É VÁLIDA!"
+          sleep 3
+          bot_telegram
+          exit 1
+          fi
+    fi
+}
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 rm versao* > /dev/null 2>&1
